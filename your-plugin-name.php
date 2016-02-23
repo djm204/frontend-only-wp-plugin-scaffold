@@ -15,10 +15,10 @@ function init(){
 	wp_register_style( 'styles', plugin_dir_url( __FILE__ ). 'css/style.css' );
 	wp_enqueue_style( 'styles', plugin_dir_url( __FILE__ ). 'css/style.css' );
 	
-	wp_register_script( 'jquery1-9', plugin_dir_url( __FILE__ ). 'js/jquery-1.9.1.min.js');
+	wp_register_script( 'jquery1-9', plugin_dir_url( __FILE__ ). 'js/jquery.min.js');
 	wp_register_script( 'jquery-easing', plugin_dir_url( __FILE__ ). '/js/jquery.easing.min.js');
     
-	wp_enqueue_script( 'jquery1-9', plugin_dir_url( __FILE__ ). 'js/jquery-1.9.1.min.js');
+	wp_enqueue_script( 'jquery1-9', plugin_dir_url( __FILE__ ). 'js/jquery.min.js');
 	wp_enqueue_script( 'jquery-easing', plugin_dir_url( __FILE__ ). '/js/jquery.easing.min.js');
 }
 
