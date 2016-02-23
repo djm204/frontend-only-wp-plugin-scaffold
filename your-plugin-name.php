@@ -22,13 +22,13 @@ function init(){
 	wp_enqueue_script( 'jquery-easing', plugin_dir_url( __FILE__ ). '/js/jquery.easing.min.js');
 }
 
-function activate_plugin(){   
+function show_plugin(){   
         
 ?>
 <?php include(plugin_dir_path( __FILE__ ) . 'front/index.php'); ?>
 <?php
 
 }
-add_shortcode('plugin-shortcut', 'activate_plugin');
+add_shortcode('plugin-shortcut', 'show_plugin');
 
 ?>
