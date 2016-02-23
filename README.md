@@ -5,7 +5,6 @@ A very basic scaffold for a word press plugin with no admin area functionality
 
 ```
 git clone https://github.com/djm204/frontend-only-wp-plugin-scaffold.git
-
 ```
 
 ##Must Change
